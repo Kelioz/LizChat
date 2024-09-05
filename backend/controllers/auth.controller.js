@@ -18,13 +18,26 @@ export const signup = async (req, res) =>{
 
         const boyProfilePic = `https://avatar.iran.liara.run/public/boy?username=${username}`
         const girlProfilePic = `https://avatar.iran.liara.run/public/girl?username=${username}`
+        const helicopterProfilePic = `https://avatars.mds.yandex.net/i?id=691f274a99dc82c65f0a0864ebfef7445c9a8538-12738984-images-thumbs&n=13`
+
+        function checkGender(){
+            if (gender === "male"){
+                return boyProfilePic
+            }
+            else  if (gender === "female"){
+                return girlProfilePic
+            }
+            else if (gender === "helicopter"){
+                return helicopterProfilePic
+            }
+        }
 
         const newUser = new User({
             fullName,
             username,
             password: hashedPassword,
             gender,
-            profilePic:gender === "male" ? boyProfilePic : girlProfilePic
+            profilePic:checkGender()
         })
 
         if (newUser){

@@ -1,21 +1,31 @@
-export default function Conversation(){
+import useConversation from "../../zustand/useConversation.js";
+
+export default function Conversation({conversation, lastIndex}){
+    const {selectedConversation, setSelectedConversation} = useConversation()
+    const isSelected = selectedConversation?._id === conversation._id
     return(
         <>
-            <div className={"flex gap-2 items-center hover:bg-sky-500 rounded p-2 py-1 cursor-pointer"}>
+            <div className={`flex gap-2 items-center hover:bg-sky-500 rounded p-2 py-1 cursor-pointer
+            ${isSelected ? "bg-sky-500": ""}`}
+            onClick={() =>{setSelectedConversation(conversation)}}
+            >
+
+
                 <div className={"avatar online"}>
                     <div className={"w-12 rounded-full"}>
-                        <img src="https://avatars.mds.yandex.net/i?id=ea6ae9f4f4073e7668274cbd2843f755_l-5176960-images-thumbs&n=13" alt="user avatar"/>
+                        <img src={conversation.profilePic} alt="user avatar"/>
                     </div>
                 </div>
 
                 <div className={"flex flex-col flex-1"}>
                     <div>
-                        <p className={"font-bold text-gray-200"}>John doe</p>
+                        <p className={"font-bold text-gray-200"}>{conversation.fullName}</p>
                         <span></span>
                     </div>
                 </div>
             </div>
-            <div className={"divider my-0 py-0 h-1"}></div>
+
+            {!lastIndex && <div className={"divider my-0 py-0 h-1"}></div>}
         </>
     )
 }
