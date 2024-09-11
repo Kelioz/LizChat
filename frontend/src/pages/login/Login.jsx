@@ -3,13 +3,14 @@ import {useState} from "react";
 import useLogin from "../../hooks/useLogin.js";
 
 const Login = () =>{
-    const [useName, setUserName] = useState("")
+    const [username, setUserName] = useState("")
     const [password, setPassword] = useState("")
     const {loading, login} = useLogin()
 
     const handleSubmit = async (event)=>{
         event.preventDefault()
-        await login(useName, password)
+        await login(username, password)
+        console.log(username, password)
     }
 
 
@@ -22,7 +23,7 @@ const Login = () =>{
                     <span className={"text-blue-500"}> LizChat</span>
                 </h1>
 
-                <form action="">
+                <form onSubmit={handleSubmit}>
                     <div>
                         <label className={"label p-2"} >
                             <span className={"text-base label-text"}>Username</span>
@@ -31,7 +32,7 @@ const Login = () =>{
                             type="text"
                             placeholder="Enter username"
                             className={"w-full input input-bordered h-10"}
-                            value={useName}
+                            value={username}
                             onChange={event =>{setUserName(event.target.value)}}
                         />
                     </div>
@@ -51,7 +52,7 @@ const Login = () =>{
                         {"Dont't"}have an account
                     </Link>
                     <div>
-                        <button onClick={handleSubmit} className="btn btn-outline btn-secondary btn-block mt-2 ">
+                        <button  className="btn btn-outline btn-secondary btn-block mt-2 ">
                             {loading? <span className={"loading loading-spinner"}></span>: <span>Login</span>}
                         </button>
                     </div>

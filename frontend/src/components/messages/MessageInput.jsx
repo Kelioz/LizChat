@@ -12,16 +12,16 @@ export default function MessageInput(){
        setMessage("")
     }
     return(
-        <form className={"px-4 my-3"}>
+        <form className={"px-4 my-3 pt-2"} onSubmit={handleSubmit}>
             <div className={'w-full relative '}>
                 <input
                     type="text"
                     placeholder={"Send message"}
                     className={'border text-sm rounded-lg block w-full p-2.5  text-white bg-gray-700 border-gray-600'}
                     value={message}
-                    onChange={event => {setMessage(event.target.value)}}
+                    onChange={(event) => {setMessage(event.target.value)}}
                 />
-                <button onClick={handleSubmit} type={"submit"} className={"absolute inset-y-0 end-0 flex items-center pe-3"}>
+                <button  type={"submit"} className={"absolute inset-y-0 end-0 flex items-center pe-3"}>
                     {loading? <span className={"loading, loading-spinner"}></span>: <BsSend />}
                 </button>
             </div>

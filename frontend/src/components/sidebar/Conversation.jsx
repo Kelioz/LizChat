@@ -9,8 +9,6 @@ export default function Conversation({conversation, lastIndex}){
             ${isSelected ? "bg-sky-500": ""}`}
             onClick={() =>{setSelectedConversation(conversation)}}
             >
-
-
                 <div className={"avatar online"}>
                     <div className={"w-12 rounded-full"}>
                         <img src={conversation.profilePic} alt="user avatar"/>

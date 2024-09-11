@@ -1,14 +1,27 @@
-export default function Message(){
+import {useAuthContext} from "../../context/AuthContext.jsx";
+import useConversation from "../../zustand/useConversation.js";
+import {extracTime} from "../../../../backend/utils/extracTime.js";
+
+export default function Message({message}){
+    const {authUser}=useAuthContext()
+    const {selectedConversation}=useConversation()
+    const fromME = message.senderId === authUser._id
+    const chatClassName = fromME ? 'chat-end' : 'chat-start'
+    const profilePic = fromME ? authUser.profilePic: selectedConversation.profilePic
+    const bubbleBgColor = fromME? "bg-blue-500": ""
+    const formatedTime = extracTime(message.createdAt)
+    console.log(message.message)
+
     return(
-        <div className={"chat chat-end"}>
+        <div className={`chat ${chatClassName}`}>
             <div className={"chat-image avatar"}>
                 <div className={"w-10 rounded-full"}>
-                    <img src="https://avatars.mds.yandex.net/i?id=ea6ae9f4f4073e7668274cbd2843f755_l-5176960-images-thumbs&n=13" alt="user-icon"/>
+                    <img src={profilePic} alt="user-icon"/>
                 </div>
             </div>
 
-            <div className={"chat-bubble text-white bg-blue-500"}>Hi! whtatokp</div>
-            <div className={"chat-footer opacity-50 text-xs flex gap-1 items-center"}>12:42</div>
+            <div className={`chat-bubble text-white bg-blue-500 ${bubbleBgColor}`}>{message.message}</div>
+            <div className={"chat-footer opacity-50 text-xs flex gap-1 items-center "}>{formatedTime}</div>
         </div>
     )
 }

@@ -8,10 +8,7 @@ const useGetConversations =  ()=>{
        const getConversations = async () =>{
            setLoading(true)
            try {
-               const res = await fetch("/api/users",{
-                   method:"GET",
-                   headers:{"Content-type":"application/json"},
-               })
+               const res = await fetch("/api/users")
                const data = await res.json()
                if (data.error){
                    throw new Error(data.error)
@@ -29,6 +26,6 @@ const useGetConversations =  ()=>{
 
 
 
-return {loading, conversations}
+return {loading, conversations, setConversations}
 }
 export default useGetConversations

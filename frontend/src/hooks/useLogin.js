@@ -18,6 +18,7 @@ const useLogin = () =>{
                 body: JSON.stringify({username, password})
             })
             const data = await res.json()
+            console.log(username, password)
             if (data.error){
                 throw new Error(data.error)
             }
@@ -38,7 +39,7 @@ const useLogin = () =>{
 export default useLogin
 
 
-function handleInputErrors({username, password, }){
+function handleInputErrors(username, password ){
     if (!username || !password ){
         toast.error("Please fil all the fills ")
         return false
