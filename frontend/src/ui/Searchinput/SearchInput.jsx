@@ -28,7 +28,7 @@ export default function SearchInput(){
             <input
                 type="text"
                 placeholder={"search"}
-                className={"input input-bordered rounded-full"}
+                className={"input input-bordered rounded-full w-3/4"}
                 value={search}
                 onChange={event => setSearch(event.target.value)}
             />
