@@ -9,7 +9,7 @@ export default function Sidebar(){
     return(
         <>
             {selectedConversation === null ?
-        <div className={"border-r border-slate-500 flex flex-col w-1/3"}>
+        <div className={"border-r border-slate-500 flex flex-col md:min-w-[250px] lg:min-w-[350px]"}>
             <SearchInput />
             <div className={"divider px-3"}></div>
             <Conversations />
