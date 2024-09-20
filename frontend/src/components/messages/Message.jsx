@@ -10,7 +10,7 @@ export default function Message({message}){
     const profilePic = fromME ? authUser.profilePic: selectedConversation.profilePic
     const bubbleBgColor = fromME? "bg-blue-500": ""
     const formatedTime = extracTime(message.createdAt)
-    console.log(message.message)
+
 
     return(
         <div className={`chat ${chatClassName}`}>
