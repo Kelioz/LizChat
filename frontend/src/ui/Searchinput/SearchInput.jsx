@@ -28,11 +28,11 @@ export default function SearchInput(){
             <input
                 type="text"
                 placeholder={"search"}
-                className={"input input-bordered rounded-full w-3/4"}
+                className={"input input-bordered rounded-full w-20 h-[40px] lg:w-3/4  "}
                 value={search}
                 onChange={event => setSearch(event.target.value)}
             />
-            <button className={"bt btn-circle bg-sky-500 text-white flex items-center justify-center"}>
+            <button className={"bt btn-circle bg-sky-500 text-white flex items-center justify-center  "}>
                 <IoSearchSharp className={"w-6 h-6 outline-none "}/>
             </button>
         </form>
