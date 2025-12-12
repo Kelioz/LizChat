@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d5c5c8d-1cae-4b4f-ac31-317016460490" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2lD7amnmFaLvsN3fiZMDSMndnfQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maxkr/Desktop/LizChat/frontend/src/components&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maxkr\Desktop\LizChat\frontend\src\components" />
+      <recent name="C:\Users\maxkr\Desktop\LizChat\frontend\src\components\conversation" />
+      <recent name="C:\Users\maxkr\Desktop\LizChat\frontend\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maxkr\Desktop\LizChat" />
+      <recent name="C:\Users\maxkr\Desktop\LizChat\frontend\src\components\sidebar" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="conversation.model.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/backend/models/conversation.model.js" working-dir="$PROJECT_DIR$/backend/models">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.server" />
+        <item itemvalue="Node.js.conversation.model.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d5c5c8d-1cae-4b4f-ac31-317016460490" name="Changes" comment="" />
+      <created>1724702860284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724702860284</updated>
+      <workItem from="1724702861787" duration="1433000" />
+      <workItem from="1724704358916" duration="2182000" />
+      <workItem from="1724784212900" duration="8195000" />
+      <workItem from="1725048546204" duration="5233000" />
+      <workItem from="1725183203833" duration="11457000" />
+      <workItem from="1725203168631" duration="25000" />
+      <workItem from="1725203219215" duration="8030000" />
+      <workItem from="1725249210436" duration="813000" />
+      <workItem from="1725475735986" duration="6917000" />
+      <workItem from="1725552747559" duration="2780000" />
+      <workItem from="1725558901981" duration="6632000" />
+      <workItem from="1725566657110" duration="439000" />
+      <workItem from="1725646411312" duration="125000" />
+      <workItem from="1725994949356" duration="917000" />
+      <workItem from="1725996072278" duration="11554000" />
+      <workItem from="1726083339489" duration="4510000" />
+      <workItem from="1726087971795" duration="791000" />
+      <workItem from="1726489179511" duration="3720000" />
+      <workItem from="1726594202537" duration="4950000" />
+      <workItem from="1726599517385" duration="2035000" />
+      <workItem from="1726679347540" duration="1839000" />
+      <workItem from="1726853519003" duration="1591000" />
+      <workItem from="1726855880545" duration="1298000" />
+      <workItem from="1726857340704" duration="583000" />
+      <workItem from="1727275232585" duration="29000" />
+      <workItem from="1727275945165" duration="1597000" />
+      <workItem from="1727369144919" duration="1918000" />
+      <workItem from="1727372256251" duration="567000" />
+      <workItem from="1727373372162" duration="113000" />
+      <workItem from="1727374093854" duration="163000" />
+      <workItem from="1727375316499" duration="626000" />
+      <workItem from="1727378153694" duration="266000" />
+      <workItem from="1727444171972" duration="754000" />
+      <workItem from="1727450203702" duration="1487000" />
+      <workItem from="1727454438046" duration="1192000" />
+      <workItem from="1727877972841" duration="22000" />
+    </task>
+    <task id="LOCAL-00001" summary="start">
+      <option name="closed" value="true" />
+      <created>1724705777505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724705777505</updated>
+    </task>
+    <task id="LOCAL-00002" summary="start">
+      <option name="closed" value="true" />
+      <created>1724706037112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724706037112</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Complete User model and auth functions">
+      <option name="closed" value="true" />
+      <created>1724792583698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724792583698</updated>
+    </task>
+    <task id="LOCAL-00004" summary="backend Complete">
+      <option name="closed" value="true" />
+      <created>1725184231500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725184231500</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ui design Complete">
+      <option name="closed" value="true" />
+      <created>1725211575978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725211575979</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ui design Complete">
+      <option name="closed" value="true" />
+      <created>1725211688080</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725211688080</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&#9;&#10;Complete User model and auth functions">
+      <option name="closed" value="true" />
+      <created>1725249340930</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725249340930</updated>
+    </task>
+    <task id="LOCAL-00008" summary="получения чатов, отправка сообщений, вход, выход, регистрация готовы">
+      <option name="closed" value="true" />
+      <created>1725567083348</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725567083348</updated>
+    </task>
+    <task id="LOCAL-00009" summary="общение в чатах без socket.io и поиск готов, начало разработки socket.io">
+      <option name="closed" value="true" />
+      <created>1726088160515</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726088160515</updated>
+    </task>
+    <task id="LOCAL-00010" summary="socket complete">
+      <option name="closed" value="true" />
+      <created>1726596931236</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726596931236</updated>
+    </task>
+    <task id="LOCAL-00011" summary="deploy">
+      <option name="closed" value="true" />
+      <created>1726598150898</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726598150898</updated>
+    </task>
+    <task id="LOCAL-00012" summary="socket url and title updated">
+      <option name="closed" value="true" />
+      <created>1726598945484</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726598945484</updated>
+    </task>
+    <task id="LOCAL-00013" summary="adaptive update">
+      <option name="closed" value="true" />
+      <created>1726600047848</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726600047848</updated>
+    </task>
+    <task id="LOCAL-00014" summary="adaptive update">
+      <option name="closed" value="true" />
+      <created>1726600966806</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726600966806</updated>
+    </task>
+    <task id="LOCAL-00015" summary="error fix">
+      <option name="closed" value="true" />
+      <created>1726679717488</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726679717488</updated>
+    </task>
+    <task id="LOCAL-00016" summary="error and adaptive fix">
+      <option name="closed" value="true" />
+      <created>1726680464322</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726680464322</updated>
+    </task>
+    <task id="LOCAL-00017" summary="error and adaptive fix">
+      <option name="closed" value="true" />
+      <created>1726680623298</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726680623298</updated>
+    </task>
+    <task id="LOCAL-00018" summary="cleaning code and adaptive update">
+      <option name="closed" value="true" />
+      <created>1726854479720</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726854479720</updated>
+    </task>
+    <task id="LOCAL-00019" summary="cleaning code and adaptive update">
+      <option name="closed" value="true" />
+      <created>1726856152722</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726856152722</updated>
+    </task>
+    <task id="LOCAL-00020" summary="adaptive update">
+      <option name="closed" value="true" />
+      <created>1726857652915</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726857652915</updated>
+    </task>
+    <task id="LOCAL-00021" summary="adaptive update">
+      <option name="closed" value="true" />
+      <created>1727276372508</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1727276372508</updated>
+    </task>
+    <task id="LOCAL-00022" summary="adaptive update">
+      <option name="closed" value="true" />
+      <created>1727276678766</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727276678766</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix">
+      <option name="closed" value="true" />
+      <created>1727375554574</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1727375554574</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start" />
+    <MESSAGE value="Complete User model and auth functions" />
+    <MESSAGE value="backend Complete" />
+    <MESSAGE value="ui design Complete" />
+    <MESSAGE value="&#9;&#10;Complete User model and auth functions" />
+    <MESSAGE value="получения чатов, отправка сообщений, вход, выход, регистрация готовы" />
+    <MESSAGE value="общение в чатах без socket.io и поиск готов, начало разработки socket.io" />
+    <MESSAGE value="socket complete" />
+    <MESSAGE value="deploy" />
+    <MESSAGE value="socket url and title updated" />
+    <MESSAGE value="error fix" />
+    <MESSAGE value="error and adaptive fix" />
+    <MESSAGE value="cleaning code and adaptive update" />
+    <MESSAGE value="adaptive update" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+  </component>
+</project>
